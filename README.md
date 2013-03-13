@@ -2,7 +2,7 @@
 
 Check out a demo page [here](http://songgao.github.com/AlikeSubmissions) (Names are masked).
 
-I'm a TA for MATLAB class taken about 400 students. I used these scripts to analize students' submissions to their Lab assignments and find out alike ones.
+I'm a TA for MATLAB class taken by about 400 students. I used these scripts to analize students' submissions to their Lab assignments and find out alike ones.
 
 ## Usage
 
@@ -20,7 +20,7 @@ Mask names if you like
 $ cat alike_ones.json | mask_names.py | tee alike_ones_masked.json
 ```
 
-Open up a local server and see the result from `localhost:8080`
+Open up a local server and see the result from `localhost:8080` in a modern browser.
 ```bash
 $ python -m SimpleHTTPServer 8080
 ```
