@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="draw.js"></script>
+        <style>
+            circle {
+                stroke: white;
+                stroke-width: 1.5px;
+            }
+
+            text {
+                pointer-events: none;
+                font: 7px sans-serif;
+                color: black;
+            }
+
+            .link {
+                stroke: black;
+                stroke-opacity: .5;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Showing relations between submissions that are more than 90% alike. Names are masked. Closer connected nodes means more alikeness.</h2>
+        <div id="content"></div>
+    </body>
+</html>
